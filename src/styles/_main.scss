@@ -1,0 +1,119 @@
+
+@import "variables";
+
+.navbar {
+  padding: 20px;
+  margin-bottom: 40px;
+
+
+  .nav-search {
+    height: 50px;
+    width: 300px !important;
+    border-color: $main-color;
+  }
+
+  .navbar-brand {
+    margin-right: 30px;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: $main-color !important;
+    font-weight: 500;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .btn-nav-search {
+    border-color: $main-color;
+    color: $main-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparent !important;
+      border-color: $main-color !important;
+      color: $main-color !important;
+      box-shadow: none;
+    }
+  }
+
+  .nav-item {
+    color: $main-white-color;
+  }
+
+  .menu{
+    text-transform: uppercase;
+    font: size 40px;
+    padding-left: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    
+  }
+  .menu a{
+    color:$main-text-gray-color;
+    padding: 20px;
+    border: 1px solid;
+    background-color: $main-black-color;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.formulario{
+  margin-top:50px;
+  display:flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.formulario h1 {
+  margin-bottom: 10px;
+  padding-top:10x;
+  text-align: left;
+  color: black;
+  text-transform: none;
+  font-size: 24px;
+  margin-left:20px;
+  margin-bottom:5px;
+}
+.formulario input{
+  height:30px;
+  border-radius:5px/5px;  
+  border:rgba(0,0,0,.15) 2px solid;
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-top:10px;
+}
+.formulario select{
+  height:30px;
+  border-radius:5px/5px;
+  border:rgba(0,0,0,.15) 2px solid;
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-top:10px;
+}
+.formulario textarea{
+  height:200px;
+  width: 400px;
+  border-radius:5px/5px;
+  border:rgba(0,0,0,.15) 2px solid;
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-top:10px;
+}
+.formulario input:focus{
+  outline:none;
+  border:black 2px solid;
+  color:black;
+}
+.formulario button{
+  margin-top:50px;
+  margin-left: 40px;
+  height:50px;
+  background-color: crimson;
+  color: white;
+  border-radius:5px/5px;
+  border-color: crimson;
+}
+
+
+}
