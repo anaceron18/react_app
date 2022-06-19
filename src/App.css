@@ -43,8 +43,8 @@
 
 .navigation{
   text-transform: uppercase;
-    font: size 40px;
-    padding-left: 50px;
+    font: size 30px;
+    padding-left: 30px;
     display:flex;
   flex-wrap: wrap;
   
@@ -108,3 +108,68 @@
   border-color: crimson;
 }
 
+.tituloTabla{
+  font-weight: bold;
+  background-color: grey;
+  color: white;
+}
+
+.tablas{
+  border: 1px solid #ddd;
+  text-align: left;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: 7%;
+}
+
+.tablas th,td {
+  text-align: left;
+  padding: 8px;
+}
+
+.tablas tr:nth-child(even){background-color: white}
+
+
+
+.formulario{
+  padding-left: 100px;
+  max-width: 25%;
+}
+
+.formulario label {
+  margin-bottom: 10px;
+  padding-top:10x;
+  text-align: left;
+  color: black;
+  text-transform: none;
+  font-size: 18px;
+  margin-left:20px;
+  margin-bottom:5px;
+}
+.formulario input{
+  height:25px;
+  border-radius:5px/5px;
+  border:rgba(0,0,0,.15) 2px solid;
+  margin-bottom:10px;
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.formulario button{
+  margin-top:20px;
+  margin-left: 40px;
+  height:50px;
+  background-color: grey;
+  color: white;
+  border-radius:5px/5px;
+  border-color: grey;
+  font-size: 20px;
+}
+
+h1{margin-left:90px}
+
+#mensaje{
+  padding:20px;
+  color: red;
+  font-weight: bold;
+}

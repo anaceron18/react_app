@@ -2,7 +2,7 @@
 import React from 'react';
 import axios from 'axios';
 
-export default class Blogs extends React.Component {
+export default class AddUsers extends React.Component {
  
   handleSubmit = event => {
     event.preventDefault();
@@ -15,12 +15,14 @@ export default class Blogs extends React.Component {
       .then(res => {
         console.log(res);
         console.log(res.data);
+        document.getElementById("mensaje").textContent="Agregado con Éxito"
       })
   }
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
+        <h1>AGREGAR USUARIOS</h1>
+        <form class="formulario" onSubmit={this.handleSubmit}>
           <label>
             Nombre:
             <input type="text" id="nombre"  />
@@ -34,6 +36,7 @@ export default class Blogs extends React.Component {
             <input type="text" id="estado"/>
           </label>
           <button type="submit">Agregar Usuario</button>
+          <label id="mensaje"></label>
         </form>
       </div>
     )
